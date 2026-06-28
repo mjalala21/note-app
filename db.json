@@ -1,0 +1,45 @@
+{
+  "notes": [
+    {
+      "archived": false,
+      "favorite": true,
+      "title": "HTML",
+      "content": "Markup Language",
+      "color": "#e08585",
+      "id": "2syQcx1yImQ"
+    },
+    {
+      "archived": true,
+      "favorite": true,
+      "title": "React",
+      "content": "i Want to learn ",
+      "color": "#74b992",
+      "id": "HRn9VjdoF9E"
+    },
+    {
+      "archived": false,
+      "favorite": false,
+      "title": "Javascript",
+      "content": "i Want to learn the Js",
+      "color": "#e1b975",
+      "id": "qq0079rmNNU"
+    },
+    {
+      "archived": false,
+      "favorite": true,
+      "title": "Advancce Javascript",
+      "content": "very IInteresting topic",
+      "color": "#f80d0d",
+      "id": "uD-kvNP_nq4"
+    },
+    {
+      "archived": false,
+      "favorite": false,
+      "title": "My Babe",
+      "content": "my only boy",
+      "color": "#f55151",
+      "id": "4wYJ40A1bWo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

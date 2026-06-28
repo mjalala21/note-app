@@ -1,10 +1,9 @@
    
     import Button from './Button'
     import { useState, useEffect } from 'react';
-   function TextInput({addNote, editingNote,updateNote}){
-     const[title,setTitle]=useState("");
-     const[content, setContent]=useState("");
-     const[color,setColor]=useState("#ffffff")
+   function TextInput({title,content,setContent,setTitle,addNote, editingNote,updateNote}){
+    
+     const[color,setColor]=useState("#faf5f5")
      const[error,setError]=useState(null)
     
        
@@ -46,13 +45,28 @@
     return(
        <>
        <div className="
-  max-w-lg mx-auto
-  bg-white/80
-  backdrop-blur-md
-  rounded-2xl
-  shadow-2xl
-  p-6
-  border border-white/40
+relative
+w-full
+p-6
+rounded-3xl
+
+ bg-gradient-to-r
+    from-cyan-500/20
+    to-purple-500/20
+
+backdrop-blur-2xl
+
+border
+border-white/20
+
+shadow-2xl
+hover:shadow-cyan-500/30
+
+
+transition-all
+duration-500
+
+overflow-hidden
 ">
        <input value={title}
               onChange={(e)=>setTitle(e.target.value)}
@@ -106,7 +120,7 @@ transition
 duration-200
 "
           /> 
-            
+      
 
          </div>
          </div>    
